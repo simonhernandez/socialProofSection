@@ -25,10 +25,10 @@
 }
 @media screen and (min-width: 768px){
     :root{
-        /* --fs-h1: 3.5rem;
+        --fs-h1: 3rem;
         --fs-big: 1.6rem;
         --fs-normal: 1rem;
-        --fs-small: .868rem; */
+        --fs-small: .868rem;
     }
 }
 /* ---- General Styles ---- */
@@ -50,6 +50,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     font-family: var(--ff-primary);
     font-size: var(--fs-normal);
     font-weight: var(--fw-reg);
@@ -143,6 +144,10 @@ h1{font-size: var(--fs-h1);}
 }
 .testimonial__quote{
     font-size: var(--fs-small);
+}
+.footer{
+    padding: 0 1.5rem 1rem;
+    text-align: center;
 }
 /* ---- Media Queries ---- */
 @media screen and (min-width: 768px){
