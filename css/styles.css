@@ -8,6 +8,7 @@
     --clr-darkGrayMagenta: hsl(303, 10%, 53%);
     --clr-lightGrayMagenta: hsl(300, 24%, 96%);
     --clr-white: hsl(0, 0%, 100%);
+    --clr-gold: #ff9529;
     /* Fonts and typography */
     --ff-primary: 'Spartan', sans-serif;
 
@@ -62,7 +63,7 @@ h1{font-size: var(--fs-h1);}
 /* Components */
 .star::before{
     content: '\2605';
-    color: gold;
+    color: var(--clr-gold);
     font-size: var(--fs-big);
 }
 /* ---- Section Styles ---- */
@@ -142,7 +143,6 @@ h1{font-size: var(--fs-h1);}
 }
 .testimonial__quote{
     font-size: var(--fs-small);
-    opacity: .8;
 }
 /* ---- Media Queries ---- */
 @media screen and (min-width: 768px){
